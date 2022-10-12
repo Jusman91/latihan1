@@ -1,3 +1,71 @@
-h1{
-    color: red;
+.wrapper {
+    background: blue;
+    border-radius: 10px;
+    padding: 20;
+    margin: 30;
+    color: aliceblue;
+    position: relative;
+    min-height: 1000px;
+    box-sizing: border-box;
+}
+.box {
+    background: red;
+    padding: 20px;
+    margin: 20px;
+    /* nilai top, right, bottom, dan left tidak berpengaruh terhadap bax-offset */
+    left: 50px;
+    bottom: 50px;
+}.box-relative {
+    position: relative;
+    background: yellow;
+    color: black;
+    padding: 20px;
+    margin: 20px;
+    /* untuk position relatif, nilai top, bottom, right, dan left berpengaruh terhadap box-offset */
+    left: 30px;
+    top: 50px;
+
+}
+.container {
+    background-color: rgb(41, 206, 235);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px;
+    color: aliceblue;
+    position: relative;
+    min-height: 300px;
+    width: 800px;
+}
+.box-abs {
+    background: blueviolet;
+    padding: 20px;
+    margin: 30px;
+    left: 50px;
+    margin-top: 50px;
+    position: absolute;
+
+    
+}
+.box-abs_1 {
+    background-color: black;
+    top: 10%;
+    bottom: 10%;
+}
+.box-abs_2 {
+    top: 20%;
+    bottom: 0;
+    right: 20%;
+    background-color: aqua;
+}
+.box-abs_3 {
+    top: 30%;
+    right: 400px;
+    bottom: 0;
+    background: red;
+}
+.box-abs_4 {
+    top: 40%;
+    right: 50%;
+    bottom: 0;
+    background: violet;;
 }
