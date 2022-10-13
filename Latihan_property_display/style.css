@@ -1,0 +1,31 @@
+.display-inline {
+    background-color: rgb(114, 250, 175);
+    font-size: 15px;
+    color: aliceblue;
+    height: 100px;
+    width: 400px;
+}
+.box-inline {
+    background: blue;
+    /* tinggi dan lebar tidak berpengaruh pada display inline */
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    display: inline;    
+}
+.display-block {
+    background-color: salmon;
+    font-size: 15px;
+    color: aliceblue;
+    height: 400px;
+    width: 400px;
+}
+.box-block {
+    background: rebeccapurple;
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;    
+}
+h1 {
+    color: black;
+}
