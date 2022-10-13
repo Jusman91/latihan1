@@ -26,6 +26,21 @@
     width: 50px;
     margin-top: 20px;    
 }
+.display_inline-block{
+    background-color: rgb(197, 245, 26);
+    font-size: 15px;
+    color: aliceblue;
+    height: 400px;
+    width: 400px;
+}
+.box-inline-block {
+    background: rgb(255, 115, 0);
+    /* perilaku sebua element dengan posisi inline dimana tata letaknya dapat diatur */
+    height: 70px;
+    width: 70px;
+    margin-top: 20px;
+    display: inline-block;  
+}
 h1 {
     color: black;
 }
