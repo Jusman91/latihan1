@@ -6,21 +6,22 @@
     font-size: 15px;
     color: aliceblue;
     height: 100px;
-    width: 400px;
+    display: flex;
+    justify-content: flex-start;
 }
 .box-flex-start {
     background: blue;
     height: 50px;
     width: 50px;
     margin-top: 20px;
-    display: inline;    
 }
 .flex-end {
     background-color: salmon;
     font-size: 15px;
     color: aliceblue;
-    height: 400px;
-    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
 }
 .box-flex-end {
     background: rebeccapurple;
