@@ -65,6 +65,34 @@
     width: 70px;
     margin-top: 20px;
 }
+.space-around {
+    background-color: rgb(26, 245, 92);
+    font-size: 15px;
+    color: aliceblue;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.box-space-around {
+    background: rgb(255, 94, 0);
+    height: 70px;
+    width: 70px;
+    margin-top: 20px;
+}
+.space-evently {
+    background-color: rgb(245, 26, 26);
+    font-size: 15px;
+    color: aliceblue;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box-space-evently {
+    background: rgb(1, 58, 41);
+    height: 70px;
+    width: 70px;
+    margin-top: 20px;
+}
 h1 {
     color: black;
 }
