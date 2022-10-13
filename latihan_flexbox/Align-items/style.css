@@ -48,34 +48,33 @@
     width: 70px;
     margin-right: 20px;
 }
-/* .space-between { */
+.baseline {
     background-color: rgb(245, 26, 128);
     font-size: 15px;
     color: aliceblue;
     height: 200px;
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
 }
-/* .box-space-between { */
+.box-baseline {
     background: rgb(0, 238, 255);
-    height: 70px;
+    /* height: 70px; */
     width: 70px;
-    margin-top: 20px;
+    margin-right: 20px;
 }
-/* .space-around { */
+.stretch {
     background-color: rgb(26, 245, 92);
     font-size: 15px;
     color: aliceblue;
     height: 200px;
     display: flex;
     justify-content: space-around;
+    align-items: stretch;
 }
-/* .box-space-around { */
+.box-stretch {
     background: rgb(255, 94, 0);
-    height: 70px;
     width: 70px;
-    margin-top: 20px;
-}
 }
 h1 {
     color: black;
