@@ -1,0 +1,49 @@
+.container {
+    background-color: rgb(212, 205, 205);
+}
+.no-wrap {
+    background-color: dodgerblue;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 300px;
+    height: 100px;
+    align-items: center;
+
+}
+.box-no-wrap {
+    background-color: bisque;
+    height: 50px;
+    margin-right: 20px;
+}
+.wrap {
+    background-color: dodgerblue;
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+
+}
+.box-wrap {
+    background-color: bisque;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+.wrap-reverse {
+    background-color: dodgerblue;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+
+}
+.box-wrap-reverse {
+    background-color: bisque;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
