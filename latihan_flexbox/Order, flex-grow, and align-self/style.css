@@ -2,13 +2,14 @@ body {
     background-color: darksalmon;
 
 }
-.container {
+.container-order {
     border: 5px solid black;
     display: flex;
     justify-content: space-evenly;
     padding: 5px;
+
 }
-.container div {
+.container-order div {
     width: 80px;
     height: 80px;
     background-color: darkviolet;
@@ -28,4 +29,44 @@ body {
 }
 .box-order-7 {
     order: 2;
+}
+.container-flex-grow {
+    border: 5px solid black;
+    display: flex;
+    padding: 5px;
+    height: 200px;
+
+}
+.container-flex-grow div {
+    background-color: darkviolet;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex: 1;
+    margin: 2px;
+}
+.container-flex-grow div.box-flex-grow-4 {
+    flex: 3;
+}
+.container-align-self {
+    border: 5px solid black;
+    display: flex;
+    padding: 5px;
+    height: 200px;
+
+
+}
+.container-align-self div {
+    background-color: darkviolet;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex: 1;
+    margin: 2px;
+}
+.container-align-self div.box-align-self-4 {
+    flex: 3;
+    align-self: center;
 }
