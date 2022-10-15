@@ -34,8 +34,6 @@ html, body {
 .container-2 {
     max-width: 1000px;
     margin: 50px auto;
-    /* display: flex; */
-    /* justify-content: space-between; */
     text-align: center;
     box-sizing: border-box;
 }
