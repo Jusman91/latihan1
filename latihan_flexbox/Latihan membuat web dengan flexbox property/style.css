@@ -9,7 +9,7 @@ html, body {
 
 /* Latihan 1 */
 .container-1 {
-    width: 800px;
+    width: 1000px;
     background-color: white;
     margin: 50px auto;
     padding: 10px;
@@ -32,16 +32,14 @@ html, body {
 
 /* latihan 2 */
 .container-2 {
-    width: 800px;
+    max-width: 1000px;
     margin: 50px auto;
-    display: flex;
-    justify-content: space-between;
+    /* display: flex; */
+    /* justify-content: space-between; */
     text-align: center;
     box-sizing: border-box;
 }
-.container-2 div {
-    width: 30%;
-}
+
 .layanan-1 {
     background: salmon;
 }
@@ -50,4 +48,13 @@ html, body {
 }
 .layanan-3 {
     background-color: red;
+}
+@media( min-width: 800px ) {
+    .container-2 {
+        display: flex;
+        justify-content: space-between;
+    }
+    .container-2 div {
+        width: 30%;
+    }
 }
