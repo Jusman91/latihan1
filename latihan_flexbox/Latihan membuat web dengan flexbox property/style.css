@@ -29,3 +29,25 @@ html, body {
     flex: 1;
     order: 3;
 }
+
+/* latihan 2 */
+.container-2 {
+    width: 800px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    box-sizing: border-box;
+}
+.container-2 div {
+    width: 30%;
+}
+.layanan-1 {
+    background: salmon;
+}
+.layanan-2 {
+    background-color: aquamarine;
+}
+.layanan-3 {
+    background-color: red;
+}
