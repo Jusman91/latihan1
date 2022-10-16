@@ -16,11 +16,18 @@ body {
 }
 header {
     padding: 20px;
+
+}
+header h1 {
+    font-size: 40px;
+    color: rgb(230, 56, 36);
 }
 header ul {
     display: flex;
     list-style: none;
     margin-top: 20px;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 ul li a {
     text-decoration: none;
@@ -36,5 +43,13 @@ ul li a:hover {
     background-image: url(image/cat.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top;
+    background-position: 0 -60px;
+}
+.content {
+    padding: 20px;
+}
+.content h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(255, 196, 0);
 }
