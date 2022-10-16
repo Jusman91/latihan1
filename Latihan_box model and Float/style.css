@@ -46,15 +46,18 @@ ul li a:hover {
     background-position: 0 -60px;
     box-sizing: border-box;
 }
-.content {
+.main {
+    width: 600px;
     padding: 20px;
+    box-sizing: border-box;
+    float: left;
 }
-.content h2 {
+.main h2 {
     font-size: 30px;
     font-weight: bold;
     color: rgb(255, 196, 0);
 }
-.content p {
+.main p {
     font-size: 20px;
     text-align: justify;
     color: cyan;
@@ -68,4 +71,40 @@ ul li a:hover {
     text-align: center;
     padding: 15px;
     font-size: 20px;
+}
+
+.sidebar {
+    width: 300px;
+    float: right;
+    padding: 20px;
+    text-align: justify;
+}
+.sidebar img {
+    width: 150px;
+    height: 120px;
+    float: left;
+    padding-right: 10px;
+}
+.sidebar h3 {
+    font-size: 23px;
+    color: rgb(255, 196, 0);
+    font-weight: bold;
+}
+.sidebar p {
+    font-size: 18px;
+}
+
+
+/* clearfix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
 }
