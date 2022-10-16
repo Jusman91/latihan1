@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(image/tree.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: aliceblue;
+}
+.container {
+    width: 1000px;
+    border: 2px solid white;
+    margin: auto;
+    box-sizing: border-box;
+}
+header {
+    padding: 20px;
+}
+header ul {
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+}
+ul li a {
+    text-decoration: none;
+    color: salmon;
+    margin-right: 20px;
+}
+ul li a:hover {
+    color: rgb(252, 190, 183);
+}
+.hero {
+    height: 500px;
+    border: 1px solid white;
+    background-image: url(image/cat.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
