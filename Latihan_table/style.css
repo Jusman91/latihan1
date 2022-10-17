@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1000px;
+    border: 1px solid black;
+    margin: auto;
+}
+.hero {
+    background-image: url(image/animals.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+    height: 500px;
+}
