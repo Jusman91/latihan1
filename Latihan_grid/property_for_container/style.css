@@ -32,5 +32,24 @@ h1 {
     grid-template-columns: 100px 50px;
     grid-template-rows: 50px 50px 80px;
     grid-auto-flow: column;
-    
+}
+.container3 {
+    border: 3px solid black;
+    width: 90%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 100px);
+}
+.gallery {
+    width: 90%;
+    margin: auto;
+    border: solid rgb(8, 8, 8);
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 3px;
+}
+img {
+    width: 100%;
+    display: block;
 }
