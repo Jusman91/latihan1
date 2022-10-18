@@ -53,3 +53,44 @@ img {
     width: 100%;
     display: block;
 }
+.container4 {
+    width: 90%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    'header header header'
+    'sidebar sidebar sidebar'
+    'content content content'
+    'footer footer footer';
+}
+.item2 {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+.header {
+    background-color: blueviolet;
+    grid-area: header;
+}
+.sidebar {
+    background-color: yellow;
+    grid-area: sidebar;
+}
+.content {
+    background-color: salmon;
+    grid-area: content;
+}
+.footer {
+    background-color: gray;
+    grid-area: footer;
+}
+@media screen and (min-width: 576px) {
+    .container4 {
+        grid-template-areas: 
+        'header header header'
+        'sidebar content content'
+        'sidebar content content'
+        'footer footer footer';
+}
