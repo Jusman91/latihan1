@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #ddd;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    display: grid;
+    grid-template-areas: 
+    'hero hero feature-1'
+    'hero hero feature-2';
+}
+.hero {
+    grid-area: hero;
+    min-height: 300px;
+    background-image: url(image/cathero.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+}
+.hero > * {
+    display: none;
+}
+.features {
+    background-color: black;
+    color: white;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+.feature-1 {
+    grid-area: feature-1;
+    background-image: url(image/kitten_ras.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.feature-2 {
+    grid-area: feature-2;
+    background-image: url(image/kitten_domestic.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.features .price {
+    font-size: 2em;
+    font-weight: 200;
+}
