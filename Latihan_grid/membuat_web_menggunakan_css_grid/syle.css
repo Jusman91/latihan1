@@ -99,6 +99,16 @@ body {
     text-align: center;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    gap: 5px;
+}
+.gallery h2 {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin: 30px;
+}
 
 
 
