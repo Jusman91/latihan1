@@ -2,11 +2,8 @@
     margin: 0;
     padding: 0;
 }
-body {
-    
-    
-}
 .container {
+    font-size: 15px;
     background-image: url(image/heart.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,35 +14,45 @@ body {
     'sidebar card card card'
     'footer footer footer footer';
     grid-template-columns: 3fr 1fr 1fr 1fr;
+    gap: 5px;
 }
 .header {
     display: grid;
     grid-area: header;
-    grid-template-columns: 1fr max-content 1fr;
-}
-.nav {
-    padding: 15px;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    z-index: 999;
 }
 .nav ul {
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
     list-style: none;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 5px;
 }
-.nav ul li a {
+.nav a {
+    display: block;
     text-decoration: none;
     text-transform: uppercase;
+    background-color: blueviolet;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgba(0, 0, 0, .3);
+    padding: 10px;
+    color: aliceblue;
+    text-align: center;
 }
 .logo {
-    font-size: 4em;
+    font-size: 3.5em;
     font-family: Henny Penny;
-    background-color: rgb(106, 12, 194);
-    text-align: center;
+    background-color: blueviolet;
+    text-align: start;
     padding: 15px;
-    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
-    box-shadow: 10px 10px rgba(0, 0, 0, .3);
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, .3);
     color: rgba(202, 12, 240, 0.89);
-    text-shadow: 5px 5px black;
+    text-shadow: 7px 7px black;
+    font-weight: 600;
+    /* opacity: .7; */
 }
 .sidebar {
     grid-area: sidebar;
@@ -69,13 +76,23 @@ body {
 }
 .card {
     grid-area: card;
-    background-color: aqua;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 5px;
-    border: solid black;
 }
 .footer {
     grid-area: footer;
     background-color: gray;
+}
+.card-1 {
+    background-image: url(image/burger1.jpg);
+    background-size: cover;
+}
+.card-2 {
+    background-image: url(image/burger3.jpg);
+    background-size: cover;
+}
+.card-3 {
+    background-image: url(image/burger4.jpg);
+    background-size: cover;
 }
