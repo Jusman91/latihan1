@@ -3,12 +3,24 @@
     padding: 0;
 }
 body {
+    
+    
+}
+.container {
     background-image: url(image/heart.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    display: grid;
+    grid-template-areas: 
+    'header header header header'
+    'sidebar main main main'
+    'sidebar card card card'
+    'footer footer footer footer';
+    grid-template-columns: 3fr 1fr 1fr 1fr;
 }
 .header {
     display: grid;
+    grid-area: header;
     grid-template-columns: 1fr max-content 1fr;
 }
 .nav {
@@ -34,4 +46,36 @@ body {
     box-shadow: 10px 10px rgba(0, 0, 0, .3);
     color: rgba(202, 12, 240, 0.89);
     text-shadow: 5px 5px black;
+}
+.sidebar {
+    grid-area: sidebar;
+    min-height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: aliceblue;
+}
+.main {
+    background-image: url(image/bakso.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-area: main;
+    min-height: 200px;
+    color: aliceblue;
+    font-size: 2em;
+    
+}
+.card {
+    grid-area: card;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 5px;
+    border: solid black;
+}
+.footer {
+    grid-area: footer;
+    background-color: gray;
 }
