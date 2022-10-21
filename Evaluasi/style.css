@@ -39,6 +39,7 @@
     padding: 10px;
     color: aliceblue;
     text-align: center;
+    font-family: Rye;
 }
 .logo {
     font-size: 3.5em;
@@ -49,10 +50,14 @@
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, .3);
-    color: rgba(202, 12, 240, 0.89);
+    color: aliceblue;
     text-shadow: 7px 7px black;
     font-weight: 600;
-    /* opacity: .7; */
+}
+.nav a:hover {
+    background: transparent;
+    color: blueviolet;
+    transition: 1s;
 }
 .sidebar {
     grid-area: sidebar;
@@ -72,6 +77,7 @@
     min-height: 200px;
     color: aliceblue;
     font-size: 2em;
+    border: 2px solid white;
     
 }
 .card {
@@ -79,20 +85,20 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 5px;
-}
-.footer {
-    grid-area: footer;
-    background-color: gray;
+    
 }
 .card-1 {
     background-image: url(image/burger1.jpg);
     background-size: cover;
+    border: 2px solid white;
 }
 .card-2 {
     background-image: url(image/burger3.jpg);
     background-size: cover;
+    border: 2px solid white;
 }
 .card-3 {
     background-image: url(image/burger4.jpg);
     background-size: cover;
+    border: 2px solid white;
 }
