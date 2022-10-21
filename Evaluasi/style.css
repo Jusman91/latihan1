@@ -15,6 +15,7 @@
     'footer footer footer footer';
     grid-template-columns: 3fr 1fr 1fr 1fr;
     gap: 5px;
+    position: relative;
 }
 .header {
     display: grid;
@@ -27,7 +28,7 @@
     display: grid;
     list-style: none;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    gap: 5px;
+    gap: 5px;    
 }
 .nav a {
     display: block;
@@ -40,6 +41,7 @@
     color: aliceblue;
     text-align: center;
     font-family: Rye;
+    font-size: 12px;
 }
 .logo {
     font-size: 3.5em;
@@ -69,6 +71,19 @@
     font-size: 2em;
     color: aliceblue;
 }
+.srch {
+    font-family: 'Times New Roman';
+    height: 23px;    
+    padding: 10px;
+}
+.btn {
+    width: 50px;
+    height: 23px;
+    background: blueviolet;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
 .main {
     background-image: url(image/bakso.jpg);
     background-size: cover;
@@ -76,29 +91,50 @@
     grid-area: main;
     min-height: 200px;
     color: aliceblue;
-    font-size: 2em;
+    font-size: 1.8em;
     border: 2px solid white;
-    
+    padding: 5px;
 }
-.card {
+.btn-main {
+    width: 100px;
+    height: 40px;
+    background: blueviolet;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
+.cards {
     grid-area: card;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 5px;
-    
+    color: white;    
+    font-size: 1.5em;
 }
 .card-1 {
     background-image: url(image/burger1.jpg);
     background-size: cover;
     border: 2px solid white;
+    padding: 5px;
 }
 .card-2 {
     background-image: url(image/burger3.jpg);
     background-size: cover;
     border: 2px solid white;
+    padding: 5px;
+
 }
 .card-3 {
     background-image: url(image/burger4.jpg);
     background-size: cover;
     border: 2px solid white;
+    padding: 5px;
+
+}
+.btn-cards {
+    width: 50px;
+    background: blueviolet;
+    height: 23px;
+    border: 1px solid white;
+    border-radius: 5px;
 }
